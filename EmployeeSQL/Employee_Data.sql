@@ -5,7 +5,7 @@ CREATE TABLE "employees" (
 	"first_name" VARCHAR NOT NULL,
 	"last_name" VARCHAR NOT NULL,
 	"sex" VARCHAR NOT NULL,
-	"hire_date" DATE NOT NULL
+	"hire_date" DATE NOT NULL,
 	PRIMARY KEY (emp_no));
 	  
 CREATE TABLE "departments" (
@@ -27,7 +27,7 @@ CREATE TABLE "dept_manager" (
 	
 CREATE TABLE "salaries" (
 	"emp_no" INTEGER NOT NULL,
-	"salary" INTERGER NOT NULL,
+	"salary" INTEGER NOT NULL,
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no));
 
 CREATE TABLE "titles" (
