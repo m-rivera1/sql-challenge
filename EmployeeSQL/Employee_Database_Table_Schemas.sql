@@ -1,3 +1,4 @@
+-- Setup tables and keys
 CREATE TABLE "employees" (
 	"emp_no" INTEGER NOT NULL,
 	"emp_title_id" VARCHAR NOT NULL,
@@ -34,4 +35,3 @@ CREATE TABLE "titles" (
 	"title_id" VARCHAR NOT NULL,
 	"title" VARCHAR NOT NULL,
 	PRIMARY KEY (title_id));
-	
