@@ -30,7 +30,7 @@ hire_date date
 
 salaries
 -
-emp_no int fk
+emp_no int fk >- employees.emp_no
 salary int
 
 titles
