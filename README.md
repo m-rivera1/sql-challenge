@@ -1,4 +1,4 @@
-## sql-challenge
+# sql-challenge
 
 # Data Modeling
 
@@ -33,3 +33,11 @@ Once you have a complete database, do the following:
 7) List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
 8) In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+
+# Results
+
+All results artifacts are located in the EmployeeSQL folder
+- Employee Database ERD (ERD diagram for the database)
+- Employee_Database_Queries (Queries to answer all eight questions above)
+- Employee_Database_Table_Schemas (My manually created schemas)
+- QuickDBD-export_Tables_Schemas (The schema export from QuickDBD)
